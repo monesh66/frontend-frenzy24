@@ -1,5 +1,5 @@
 import React from 'react'
-import './Counsel.css';
+import './css/Counsel.css';
 
 
 function Counseling() {

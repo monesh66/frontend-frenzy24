@@ -1,0 +1,99 @@
+.Image-div{
+  display:flex;
+  margin: 12vh ;
+  height: 50vh;
+}
+.Img{
+  flex: 40%;
+  background-image: url('../asset/Abt.jpeg');
+  object-fit: scale-down;
+}
+
+.Text{
+  flex: 50%;
+  justify-content: center;
+  text-align: center;
+  margin: 0 2vw 0 5vh;
+  line-height: 1.5;
+}
+
+.Text p{
+  text-align: justify;
+  justify-content: space-between;
+}
+.services h1{
+  font-size: 50px;
+  font-weight: 600;
+  color: #181274;
+  text-align: center;
+  margin: 80px 0px 50px 0px;
+}
+.services h2{
+  font-size: 20px;
+  text-align: center;
+  margin: 5px;
+  padding: 0%;
+  font-weight: 300;
+}
+.service-box{
+  display: flex;
+  width: 70%;
+  height: 300px;
+  margin: auto;
+}
+.service-box h2{
+  font-size: 15px;
+  margin: 0%;
+  padding: 0%;
+  font-weight: 400;
+}
+.s-box{
+  flex:25%;
+  width:30%;
+  height: 400px;
+  margin: 30px 20px 10px 20px;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 0 0 20px #1781c874;
+  transition: transform .2s;
+}
+.s-box:hover {
+  transform: scale(1.2); 
+}
+.s-box h1{
+  font-size: 30px;
+  margin: 10px 0 10px 0;
+}
+.s-box h2{
+  font-size: 15px;
+  margin: 20px 5px 10px 5px;
+}
+.s-box img{
+  width: 100px;
+  height: 100px;
+  margin:30px 30% 20px 30%;
+}
+/* special services */
+.container h1{
+  margin: 15vh 0 5vh 0;
+}
+#services{
+  padding: 30px 0;
+  margin: 5vh ;
+} 
+
+.services-list{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 3vh;
+  height: 25vh;
+}
+
+.s-box h{
+  text-align: justify;
+}
+.services-list img{
+  width: 100px;
+  height: 100px;
+  margin:30px 30% 20px 30%;
+}

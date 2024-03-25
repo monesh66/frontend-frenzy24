@@ -1,0 +1,124 @@
+.cta{
+    margin: 50px 0px 0px 0px;
+    position: relative;
+    background-color: #f9f7f5;
+    width: 100%;
+}
+.cafe-img{
+    background-image: url('../asset/Abt.jpeg');
+    width: 80%;
+    height: 50vh;
+    margin: auto;
+    margin-bottom: 10vh;
+}
+
+.explore{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    background-color: #f9f7f5;
+    margin: -100px 0px 100px 0px;
+}
+
+.explore-btn{
+    background-image: linear-gradient(to right, #00c6ff 0%, #0072ff  51%, #00c6ff  100%);
+    padding: 15px 30px;
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+}
+
+.cta-box{
+    margin: auto;
+    width: 80%;
+    height: 400px;
+    background-color: #140f61;
+    display: flex;
+    border-radius: 25px 25px; 
+}
+.cta-txt{
+ flex:40% ;
+}
+.cta-txt h2{
+    color: #d8fafc;
+    font-weight: 600;
+    font-size: 50px;
+    margin-left: 30px;
+    text-align: left;
+}
+.cta-txt p{
+    color: #66bff3;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: left;
+    margin-left: 30px;
+}
+.get-start{
+    background-image: linear-gradient(to right, #a3e1f2 0%, #5f95d6  51%, #98d1e0  100%);
+    margin: 20px 100px;
+    padding: 15px 30px;
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color:#181274;            
+    box-shadow: 0 0 20px #eeeeee48;
+    border-radius: 10px;
+    display: block;
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 550; 
+}
+.cta-mini-box{
+    margin-left: 10px;
+    flex: 50%;
+    display: flex;
+}
+.mini-1{
+    flex: 50%;
+    width: 50%;
+    height: 100%;
+    background-color: #140f61;
+}
+.mini-2{
+    flex: 50%;
+    flex: 50%;
+    width: 50%;
+    height: 100%;
+    background-color: #140f61;
+    border-radius:0px 25px 25px 0px;
+}
+.box{
+    width: 85%;
+    height: 40%;
+    margin: 30px 0px 10px 20px;
+    background-color:rgba(34, 61, 141, 0.5);
+    border-radius:20px;
+    box-shadow: 0 0 20px #08052e93;
+    font-family:sans-serif;
+    transition: transform .2s;
+}
+
+.box:hover {
+    transform: scale(1.2); 
+  }
+
+.box p{
+    font-size: 55px;
+    text-align: left;
+    margin: 0%;
+    padding:20px 0px 0px 20px;
+    color: #20b9f0;
+    font-weight: 600;
+}
+.box h4{
+    color: #ffffffd5;
+    padding:0px 0px 0px 20px;
+}

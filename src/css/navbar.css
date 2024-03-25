@@ -6,14 +6,16 @@
 .navbar nav{
    height: 12vh;
    width: 100%;
-   background-color: rgb(136, 184, 214);
+   background-color: #140f61;
    position: absolute;
    top: 0;
    left: 0;
 }
 .navbar ul li a{
   text-decoration: none;
-  color: #031D44;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 20px;
 }
 
 .navbar ul{
@@ -64,7 +66,7 @@ display: none;
  border-radius: 2ch;
  content: "";
  position: absolute;
- background-color: #031D44;
+ background-color: #eef5ff;
 }
 
 .nav-link-ltr::before {
