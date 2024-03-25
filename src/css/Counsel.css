@@ -1,0 +1,14 @@
+.couns-box{
+    margin: 12vh 0 0 0;
+}
+    
+
+.couns-img{
+    background-image: url('./assets/couns.jpeg');
+    height: 20vh;
+}
+
+.txt{
+    background: linear-gradient(to bottom, #0074d9, #7fdbff);
+    margin: 5vh 0 5vh 0;
+}
